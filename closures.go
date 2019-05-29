@@ -23,5 +23,5 @@ func main(){
 
 	//To confirm that the state is unique to that particular function, create and test a new one
 	newInts := intSeq()
-	fmt.Println(newInts)
+	fmt.Println(newInts())
 }
