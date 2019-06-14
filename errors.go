@@ -24,12 +24,12 @@ func (e *argError) Error() string {
 }
 func f2(arg int) (int, error) {
 	if arg == 42 {
+		//In this case we use &argError syntax to build a new struct, supplying values for the two fields arg and prob.
 		return -1, &argError{arg, "can't work with it"}
 	}
 	return arg + 3, nil
 }
 
-//In this case we use &argError syntax to build a new struct, supplying values for the two fields arg and prob.
 func main() {
 
 	//The two loops below test out each of our error-returning functions. Note that the use of an inline error check on the if line is a common idiom in Go code.
