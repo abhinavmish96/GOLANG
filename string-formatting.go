@@ -45,5 +45,3 @@ func main() {
 // Go uses UTF-8 encoded strings, so this is often useful
 // as-is. If you're working with potentially multi-byte
 // characters you'll want to use encoding-aware operations.
-// See [strings, bytes, runes and characters in Go](https://blog.golang.org/strings)
-// for more information.
