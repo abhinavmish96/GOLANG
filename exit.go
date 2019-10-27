@@ -22,3 +22,12 @@ func main() {
 // return value from `main` to indicate exit status. If
 // you'd like to exit with a non-zero status you should
 // use `os.Exit`.
+
+/*
+$ go run exit.go
+exit status 3
+$ go build exit.go
+$ ./exit
+$ echo $?
+3
+*/
