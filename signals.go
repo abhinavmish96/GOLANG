@@ -44,3 +44,11 @@ func main() {
 	<-done
 	fmt.Println("exiting")
 }
+
+/*
+$ go run signals.go
+awaiting signal
+^C
+interrupt
+exiting
+*/
