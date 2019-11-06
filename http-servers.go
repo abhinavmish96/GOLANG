@@ -48,3 +48,11 @@ func main() {
 	// router we've just set up.
 	http.ListenAndServe(":8090", nil)
 }
+
+/*
+$ go run http-servers.go &
+
+$ curl localhost:8090/hello
+hello
+
+*/
